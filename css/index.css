@@ -1,0 +1,331 @@
+/* <strat section Portfolio> */
+.section-title{
+    position: relative;
+    top: 10px;
+    left: 361px;
+}
+
+.section-title h2::before, .section-title h2::after {
+    content: "";
+    width: 50px;
+    height: 2px;
+    background: #3498db;
+    display: inline-block;
+}
+.section-title h2 {
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+    top: -4px;
+    left: -3px;
+    color: #222222;
+    
+}
+.section-title p {
+    margin: 15px 0 0 0 ;
+    position: relative;
+    left: -50px;
+    color: rgb(95, 87, 87);
+}
+
+.mybtn{
+    position: relative;
+    left: 405px;
+    top:30px;
+}
+.btn {
+    border: none;
+    outline: none;
+    padding: 12px 16px;
+    background-color: white;
+    cursor: pointer;
+  }
+  .btn:hover {
+    background-color: rgb(97, 20, 238);
+  }
+  .btn.active {
+    background-color: rgb(97, 20, 238);
+    color: white;
+  }
+   .portfolio-wrap {
+    backface-visibility: hidden;
+    opacity: 1;
+    transition: 0.3s;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    background: rgba(34, 34, 34, 0.6);
+    top: 50px;
+}
+.portfolio-wrap:hover {
+    opacity: 0.3;
+  }
+  
+.portfolio-wrap1{
+    backface-visibility: hidden;
+    opacity: 1;
+    transition: 0.3s;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    background: rgba(34, 34, 34, 0.6);
+    top: 100px;
+}
+.portfolio-wrap1:hover {
+    opacity: 0.3;
+  }
+.portfolio-wrap2{
+    backface-visibility: hidden;
+    opacity: 1;
+    transition: 0.3s;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    background: rgba(34, 34, 34, 0.6);
+    top: 150px;    
+}
+.portfolio-wrap2:hover {
+    opacity: 0.3;
+  }
+/* <end section Portfolio> */
+
+
+ 
+/* <start section team> */
+ .team{
+    background-color: #f7fbfe;
+    position: relative;
+    top: 250px;
+    padding: 80px;
+ }
+.section-title-team  h2::before, .section-title-team h2::after {
+    content: "";
+    width: 50px;
+    height: 2px;
+    background: #3498db;
+    display: inline-block;
+}
+.section-title-team h2 {
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+    color: #222222;
+}
+.section-title-team p {
+    margin: 15px 0 0 0 ;
+    position: relative;
+    left: -50px;
+    color: rgb(95, 87, 87);
+}
+
+ .section-title-team{
+    
+    position: relative;
+    top: 0px;
+    left: 424px;
+}
+
+.card{
+    position: relative;
+    top: 50px;
+    left: 0px;  
+}
+/* <end section team> */
+
+
+/* <start sectoim pricing> */
+.Pricing{
+    position: relative;
+    top: 10px;
+ }
+ .section-title-Pricing  h2::before, .section-title-Pricing h2::after {
+    content: "";
+    width: 50px;
+    height: 2px;
+    background: #3498db;
+    display: inline-block;
+}
+.section-title-Pricing h2 {
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+    color: #222222;
+}
+.section-title-Pricing p {
+    margin: 15px 0 0 0 ;
+    position: relative;
+    left: -50px;
+    color: rgb(95, 87, 87);
+}
+.section-title-Pricing{
+    
+    position: relative;
+    top: 400px;
+    left: 424px;
+}
+
+.price{
+background-color: #f9f9f9;;
+color: black;
+box-shadow: 0px 8px 12px 0 rgba(0, 0, 0, 0.2);
+position: relative;
+top: 450px;
+margin: 30px 0 0 0;
+border-radius: #ebf1f5;
+padding: 100px 0 100px 0;
+}
+.price h5{
+    text-align: center;
+    position: relative;
+   top: -14px;
+   
+}
+.price h4{
+    text-align: center;
+    position: relative;
+   left: -14px;
+   font-size: 42px;
+    color: #3498db;
+    font-weight: 500;
+    font-family: "Open Sans", sans-serif;
+    margin-bottom: 20px;
+}
+
+ 
+
+.price ul{
+   list-style-type:none ;
+   margin: 0px;
+   position: relative;
+  
+   left: -35px; 
+
+}
+.price li{
+   position: relative;
+   top: 10px;
+   left: 10px;
+   text-align: center;
+   padding: 8px;
+  color: rgb(29, 28, 28);
+}
+.price .na{
+text-decoration: line-through;
+color: #ccc;
+}
+.price .btn {
+    display: inline-block;
+    padding: 10px 40px 12px 40px;
+    border-radius: 50px;
+    border: 2px solid #3498db;
+    color: #3498db;
+    font-size: 14px;
+    font-weight: 400;
+    font-weight: 600;
+    transition: 0.3s;
+    position: relative;
+    left: 100px;
+    top: 30px;
+}
+
+/* <end > */
+
+
+
+
+/* strat */
+ .faq{
+     position: relative;
+     top: 650px;
+    
+ }
+ .section-title-1 h2 {
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+    color: #222222;
+    position: relative;
+    top: -80px;
+    left: 250px;
+}
+.section-title-1 h2::before, .section-title-1 h2::after {
+    content: "";
+    width: 50px;
+    height: 2px;
+    background: #3498db;
+    display: inline-block;
+}
+.faq .faq-item h4 {
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 500;
+    margin: 0 0 10px 32px;
+    font-family: "Poppins", sans-serif;
+}
+
+.faq .faq-item i {
+    color: #8bc4ea;
+    font-size: 24px;
+    float: left;
+    line-height: 0;
+    padding: 13px 0 0 0;
+    margin: 0;
+}
+/* :end */
+
+
+
+  /* strart */
+  .contact{
+      padding: 150px;
+position: relative;
+top: 900px;
+background-color: #f7fbfe;
+  }
+  .section-title-2 h2 {
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+    top: -111px;
+    left: 373px;
+    color: #222222;
+}
+.section-title-2 h2::before, .section-title-2 h2::after {
+    content: "";
+    width: 50px;
+    height: 2px;
+    background: #3498db;
+    display: inline-block;
+}
+.contact .contact-about h3 {
+    font-size: 28px;
+    margin: 0 0 10px 0;
+    padding: 0;
+    line-height: 1;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #222222;
+}
+.contact .contact-about p {
+    font-size: 14px;
+    line-height: 24px;
+    font-family: "Raleway", sans-serif;
+    color: #888;
+}
+.contact .php-email-form button[type=submit] {
+    background: #3498db;
+    border: 0;
+    padding: 10px 24px;
+    color: #fff;
+    transition: 0.4s;
+    border-radius: 50px;
+}
+
+
+
+   
